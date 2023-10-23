@@ -3,7 +3,7 @@ apiVersion: apps/v1
 metadata:
   name: nginx
 spec:
-  replicas: 3
+  replicas: 6
   selector:
     matchLabels:
       app: nginx
